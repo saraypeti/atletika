@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Az atletika.hu modern újragondolása egyetemi beadandóhoz.">
+    <meta name="author" content="Beadandó Készítő">
+    
+    <title>Magyar Atlétika</title>
+    
+        <link rel="icon" type="image/svg+xml"
+            href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 120'%3E%3Ctext x='0' y='80' font-family='Arial' font-size='80' font-weight='900' font-style='italic' fill='%231E40AF'%3E%23MA%3C/text%3E%3C/svg%3E">
+
+        <link rel="alternate icon" sizes="32x32" 
+            href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 200 120'%3E%3Ctext x='0' y='80' font-family='Arial' font-size='80' font-weight='900' font-style='italic' fill='%231E40AF'%3E%23MA%3C/text%3E%3C/svg%3E">
+
+        <link rel="shortcut icon" 
+            href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 200 120'%3E%3Ctext x='0' y='80' font-family='Arial' font-size='80' font-weight='900' font-style='italic' fill='%231E40AF'%3E%23MA%3C/text%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/nevezes.js" defer></script>
+    <script src="./js/script.js" defer></script>
+    <script src="./js/tempo.js" defer></script>
+
+</head>
+
+<body class="site-body">
+
+    <header class="site-header">
+        <nav class="nav-container">
+            <div class="nav-inner">
+                
+                <div class="logo">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120'%3E%3Ctext x='0' y='85' font-family='Arial%20Black' font-size='80' font-weight='900' font-style='italic' fill='%23005BBB'%3E%23MAGYARATLETIKA%3C/text%3E%3C/svg%3E" 
+                        alt="#MAGYARATLETIKA logo" 
+                        style="height:40px;">
+                </div>
+
+                <!-- Fejléc -->
+                <div class="desktop-menu">
+                    <a href="#home" class="nav-link nav-link--desktop" data-page="home">Főoldal</a>
+                    <a href="#news" class="nav-link nav-link--desktop" data-page="news">Hírek</a>
+                    <a href="#calculator" class="nav-link nav-link--desktop" data-page="calculator">Tempó Kalkulátor</a>
+                    <a href="#register" class="nav-link nav-link--desktop" data-page="register">Nevezés</a>
+                </div>
+                
+                <!-- Mobil menü -->
+                <div class="mobile-menu-button-wrapper">
+                    <button id="mobile-menu-button" type="button" class="mobile-menu-button">
+                        <svg class="mobile-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /> <!-- "Hamburger ikon"-->
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Mobil lenyíló menü -->
+        <div class="mobile-menu hidden" id="mobile-menu">
+            <div class="mobile-menu-inner">
+                <a href="#home" class="nav-link nav-link--mobile" data-page="home">Főoldal</a>
+                <a href="#news" class="nav-link nav-link--mobile" data-page="news">Hírek</a>
+                <a href="#calculator" class="nav-link nav-link--mobile" data-page="calculator">Tempó Kalkulátor</a>
+                <a href="#register" class="nav-link nav-link--mobile" data-page="register">Nevezés</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tartalom -->
+    <main class="main-container">
+
+        <!-- Főoldal -->
+        <section id="home" class="page page--home active">
+            <div class="panel">
+                <h1 class="page-title">A #MagyarAtlétika hivatalos weboldala</h1>
+                <p class="lead-text">
+                    Böngéssz a legfrisseb hírek között, számold ki a saját tempód vagy regisztrálj közelgő versenyünkre!
+                </p>
+                
+                <h2 class="section-title">Kiemelt Hírek</h2>
+
+                <div class="cards-grid">
+                    <article class="card">
+                        <div class="card-image-wrapper">
+                            <img src="./kepek/kep1.jpg" alt="Baby boom az olimpia után – 6. rész: Kerekes Gréta" class="card-image">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Baby boom az olimpia után – 6. rész: Kerekes Gréta</h3>
+                            <p class="card-date">2025. november 22.</p>
+                            <a href="#" class="card-link">Tovább olvasom &rarr;</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-image-wrapper">
+                            <img src="./kepek/kep2.jpg" alt="Atlétikai Világdöntő - íme, a versenyprogram!" class="card-image">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Atlétikai Világdöntő - íme, a versenyprogram!</h3>
+                            <p class="card-date">2025. november 22.</p>
+                            <a href="#" class="card-link">Tovább olvasom &rarr;</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-image-wrapper">
+                            <img src="./kepek/kep5.jpg" alt="Kezdődik az U20-as Eb!" class="card-image">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Kezdődik az U20-as Eb</h3>
+                            <p class="card-date">2025. augusztus 8.</p>
+                            <a href="#" class="card-link">Tovább olvasom &rarr;</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-image-wrapper">
+                            <img src="./kepek/kep4.jpeg" alt="Örül, hogy ezt megkapta – interjú Molnár Attilával" class="card-image">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Örül, hogy ezt megkapta – interjú Molnár Attilával</h3>
+                            <p class="card-date">2025. november 20.</p>
+                            <a href="#" class="card-link">Tovább olvasom &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hírek -->
+        <section id="news" class="page page--news">
+            <div class="panel">
+                <h1 class="page-title">Hírek</h1>
+                <div class="news-list">
+                    <article class="news-item">
+                        <h3 class="news-title">A 25. siketlimpia mérlege a magyar atléták szempontjából</h3>
+                        <p class="news-text">Hatalmas szenzáció</p>
+                    </article>
+                    <article class="news-item">
+                        <h3 class="news-title">MASZ Díjátadó Gála 2025</h3>
+                        <p class="news-text">A magyar atlétikát ünnepeltük</p>
+                    </article>
+                    <article class="news-item">
+                        <h3 class="news-title">Kétszeresen gyászol a magyar atlétika</h3>
+                        <p class="news-text">Elhunyt Fejér Géza és Tóth László</p>
+                    </article>
+                    <article class="news-item">
+                        <h3 class="news-title">Maratoni felkészülési tippek</h3>
+                        <p class="news-text">Szakértőnk tanácsai kezdőknek.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tempó kalkulátor -->
+        <section id="calculator" class="page page--calculator">
+            <div class="panel panel--narrow">
+                <h1 class="page-title">Tempó Kalkulátor</h1>
+                <p class="lead-text">
+                    Add meg a távot és az időt, a program kiszámolja a tempót.
+                </p>
+                
+                <div class="form-section">
+                    <div class="form-group">
+                        <label for="calcDistance" class="form-label">Táv (km)</label>
+                        <input type="number" id="calcDistance" class="form-input" placeholder="Pl. 10.5">
+                    </div>
+                    
+                    <div class="form-group">
+                        <span class="form-label">Idő</span>
+                        <div class="form-row form-row--three">
+                            <input type="number" id="calcHours" class="form-input" placeholder="Óra">
+                            <input type="number" id="calcMinutes" class="form-input" placeholder="Perc">
+                            <input type="number" id="calcSeconds" class="form-input" placeholder="Mp">
+                        </div>
+                    </div>
+                    
+                    <!-- Eredmény -->
+                    <div class="calculator-result">
+                        <div class="calculator-result-item">
+                            <p class="result-label">Átlagtempó:</p>
+                            <p id="paceResult" class="result-value">0:00 <span class="result-unit">p/km</span></p>
+                        </div>
+                        <div class="calculator-result-item">
+                            <p class="result-label">Átlagsebesség:</p>
+                            <p id="speedResult" class="result-value">0.00 <span class="result-unit">km/h</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nevezés -->
+        <section id="register" class="page page--register">
+            <div class="panel panel--wide">
+                <h1 class="page-title">Nevezés</h1>
+                
+                <form id="registrationForm" class="form" novalidate>
+                    <div class="form-group">
+                        <label for="nev" class="form-label">Név</label>
+                        <input type="text" id="nev" name="nev" class="form-input">
+                        <span id="nevError" class="form-error">A név megadása kötelező.</span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" id="email" name="email" class="form-input">
+                        <span id="emailError" class="form-error">Érvénytelen e-mail cím.</span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefon" class="form-label">Telefon</label>
+                        <input type="tel" id="telefon" name="telefon" class="form-input">
+                        <span id="telefonError" class="form-error">Hibás formátum.</span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="szulDatum" class="form-label">Születési dátum</label>
+                        <input type="date" id="szulDatum" name="szulDatum" class="form-input">
+                        <span id="szulDatumError" class="form-error">Csak 18 éven felülieknek.</span>
+                    </div>
+
+                    <fieldset class="form-group">
+                        <legend class="form-label">Táv</legend>
+                        <div class="radio-group">
+                            <label class="radio-option">
+                                <input type="radio" name="tav" value="5k">
+                                <span>5 km</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="tav" value="10k">
+                                <span>10 km</span>
+                            </label>
+                        </div>
+                        <span id="tavError" class="form-error">Válassz távot.</span>
+                    </fieldset>
+                    
+                    <div class="form-group">
+                        <label for="meret" class="form-label">Pólóméret</label>
+                        <select id="meret" name="meret" class="form-input">
+                            <option value="">Válassz...</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <span id="meretError" class="form-error">Válassz méretet.</span>
+                    </div>
+
+                    <div class="form-group form-group--checkbox">
+                        <input id="feltetelek" name="feltetelek" type="checkbox" class="checkbox-input">
+                        <label for="feltetelek" class="checkbox-label">Elfogadom a szabályzatot.</label>
+                    </div>
+                    <span id="feltetelekError" class="form-error">Kötelező elfogadni.</span>
+
+                    <div id="formSuccessMessage" class="form-success hidden">
+                        Sikeres nevezés!
+                    </div>
+                    
+                    <button type="submit" class="primary-button">Nevezés küldése</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Lábléc -->
+    <footer class="site-footer">
+        <p>&copy; 2025 Magyar Atlétika.</p>
+    </footer>
+
+</body>
+</html>
