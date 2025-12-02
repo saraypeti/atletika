@@ -1,5 +1,7 @@
 A weboldalt Sáray Péter készítette
 
+A kész weblap megtalálható a https://github.com/saraypeti/atletika oldalon.
+
 A weboldal az atletika.hu újragondolása. A kiemelt aktuális hírekkel, más egyéb hírekkel,
 egy tempó kalkulátorral a futók segítségére, és egy versenyre való nevezéssel.
 
